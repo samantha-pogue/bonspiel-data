@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bonspiel SYSTEM "structure.dtd">
+
+
+  <bonspiel season="2019-2020">
+    <location>University of Wisconsin-Stevens Point</location>
+    <member>Callie Wesenick</member>
+    <member>Joshua Proehl</member>
+    <member>Alex Duhaime</member>
+    <!--first match-->
+    <game against="UWSP">
+      <game_outcome>win</game_outcome>
+    </game>
+    <!--second match-->
+    <game against="Nebraska">
+      <game_outcome>loss</game_outcome>
+    </game>
+    <!--third match-->
+    <game against="StNorbert">
+      <game_outcome>win</game_outcome>
+    </game>
+    <!--event-->
+    <event placement="second" opponent="UWSP">
+      <event_outcome>win</event_outcome>
+    </event>
+    <wins>2</wins>
+    <losses>1</losses>
+    <merit_points>2</merit_points>
+  </bonspiel>
+
+  <bonspiel season="2019-2020">
+    <location>Rice Lake</location>
+    <member>Callie Wesenick</member>
+    <member>Joshua Proehl</member>
+    <member>Alex Duhaime</member>
+    <member>Joshua Schellpfeffer</member>
+    <!--first match-->
+    <game against="UWSP">
+      <game_outcome>win</game_outcome>
+    </game>
+    <!--second match-->
+    <game against="Nebraska">
+      <game_outcome>loss</game_outcome>
+    </game>
+    <!--third match-->
+    <game against="StNorbert">
+      <game_outcome>win</game_outcome>
+    </game>
+    <!--event-->
+    <event placement="second" opponent="UWSP">
+      <event_outcome>win</event_outcome>
+    </event>
+    <wins>2</wins>
+    <losses>1</losses>
+    <merit_points>2</merit_points>
+  </bonspiel>

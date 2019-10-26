@@ -1,2 +1,0 @@
-# bonspiel-data
- 

@@ -1,0 +1,15 @@
+
+<!ELEMENT bonspiel (location, member, game+, event+, wins, losses, merit_points)>
+<!ATTLIST bonspiel season (2019-2020|2020-2021) #REQUIRED>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT member (#PCDATA)>
+<!ELEMENT game (game_outcome)>
+<!ATTLIST game against (UWSP|Nebraska|UWGB|StNorbert|WayneState) #REQUIRED>
+<!ELEMENT game_outcome (#PCDATA)>
+<!ELEMENT event (event_outcome)>
+<!ATTLIST event placement (first|second|third|fourth) #REQUIRED>
+<!ATTLIST event opponent (UWSP|Nebraska|UWGB|StNorbert|WayneState) #REQUIRED>
+<!ELEMENT event_outcome (#PCDATA)>
+<!ELEMENT wins (#PCDATA)>
+<!ELEMENT losses (#PCDATA)>
+<!ELEMENT merit_points (#PCDATA)>
